@@ -1,7 +1,31 @@
 body {
     font-family: verdana;
+    background-color: rgb(194, 238, 203);
+    padding: 1px;
+    max-width: 720px;
+    margin: 1px;
+}
+.heading {
+    border: solid;
+    border-color: black;
+    background-color: rgb(1, 150, 8);
+    display: flex;
+    justify-content: center
 }
 
-nav a.select {
-    font-size: 1.5px;
+
+nav a.selected {
+   display: flex;
+   justify-content: flex-end; 
 }
+
+main {
+    background-color: rgb(31, 153, 143);
+    padding: 10px;
+    margin: 20px;
+}
+
+section {
+    font-size: 30px;
+}
+
