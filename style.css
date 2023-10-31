@@ -29,3 +29,7 @@ section {
     font-size: 30px;
 }
 
+img {
+    width: 200px;
+    display: flex;
+}
